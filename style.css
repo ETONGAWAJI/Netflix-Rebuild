@@ -1,0 +1,1537 @@
+ .authority {
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    padding: 0;
+}
+
+.authority> * {
+    flex: 100%;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.3), #000), url(Images/Picture\ Collage.jpg);
+    background-size: 83.5rem;
+    width: 10rem;
+    height: 70rem;
+    flex-wrap: wrap;
+}
+
+.omo {
+    position: relative;
+    top: 1rem;
+}
+
+.omo> img {
+    width: 7.5rem;
+    margin-top: 0.5rem;
+    margin-left: 3.5rem;
+}
+
+.omoo {
+    position: relative;
+    top: -1.5rem;
+    left: 73.5rem;
+}
+
+.omoo> a {
+    background: red;
+    padding: 0.55rem 1.3rem;
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    border-radius: 0.15rem;
+}
+
+.black {
+    background: black;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: 83%;
+    top: -46.25rem;
+    opacity: 0.65;
+    margin: 0;
+}
+
+.black> h1{
+    color: black;
+    font-size: 0.1rem;
+}
+
+.unlimited {
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 5rem;
+
+
+}
+
+.unlimited> h1 {
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.unlimited> h2 {
+    font-size: 1.9rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.unlimited> h3 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+}
+
+.unlimited> h1 {
+    color: white;
+}
+
+.unlimited> h2 {
+    color: white;
+}
+
+.unlimited> h3 {
+    color: white;
+}
+
+.email {
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    left: 19.6rem;
+    top: 4.7rem;
+    
+}
+
+.email> input {
+    height: 3rem;
+    width: 29.1rem;
+    border: none;
+}
+
+.email> div> button {
+    height: 3.15rem;
+    width: 14.5rem;
+    background-color:red;
+    padding: none;
+    border: none;
+    border-color: red;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.email> div> button> a {
+   color: white;
+   font-size: 1.7rem;
+   font-family: Arial, Helvetica, sans-serif;
+   align-self: left;
+   text-decoration: none;
+   padding: none;
+}
+
+.chevron-right-arrow {
+   position: absolute;
+   top: 0.75rem;
+   left: 49.5%;
+}
+
+.arrow {
+    margin-left: 0.5rem;
+    position: relative; 
+}
+.arrow > img{
+    width: 0.7rem;
+    top: 0.2rem;
+    position: relative;
+}
+
+.black001 {
+    background: darkgrey;
+    background-color: darkgrey;
+    width: 98.8%;
+    top: -25rem;
+    position: relative;
+    margin-left: none;
+    padding-bottom: 0.35rem;
+
+}
+
+.black001> h1{
+    color: darkgrey;
+    font-size: 0.1rem;
+}
+
+.enjoy-set-cover {
+    display: flex;
+    background: black;
+    position: relative;
+    top: -25rem;
+}
+
+.enjoy-set-cover> div> h1 {
+    color: white;
+    font-size: 2.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 9.3rem;
+    margin-left: 5.5rem;
+}
+
+
+.enjoy-set-cover> div> h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    margin-top: none;
+    margin-bottom: none;
+    margin-left: 5.5rem;
+}
+
+.netvid {
+    position: absolute; 
+    left: 54.3%;
+    top: 6.3rem;
+}
+
+.tv {
+    position: relative;
+    left: 13.5%;
+    width: 40.8rem;
+}
+
+.black002 {
+    background: darkgrey;
+    background-color: darkgrey;
+    width: 98.8%;
+    top: -20.5rem;
+    position: relative;
+    margin-left: none;
+    padding-bottom: 0.35rem;
+
+}
+
+.black002> h1{
+    color: darkgrey;
+    font-size: 0.1rem;
+}
+
+.download-set-cover {
+    display: flex;
+    background: black;
+    position: relative;
+    top: -20.5rem;
+}
+.s-t {
+    position: relative;
+    margin: 0;
+    padding-bottom: 4.5rem;
+    width: 40rem;
+}
+
+.download-words-cover {
+    position: relative;
+    top: 12rem;
+    left: 8rem;
+}
+
+.download-set-cover> div> h1 {
+    color: white;
+    font-size: 2.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.download-set-cover> div> h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+.black003 {
+    background: darkgrey;
+    background-color: darkgrey;
+    width: 98.8%;
+    top: -20.5rem;
+    position: relative;
+    margin-left: none;
+    padding-bottom: 0.35rem;
+
+}
+
+.black003> h1{
+    color: darkgrey;
+    font-size: 0.1rem;
+}
+
+.watch-set-cover {
+    background: black;
+    position: relative;
+    top: -20.5rem;
+}
+
+.watch-words-cover {
+   margin: 7rem;
+}
+
+.watch-set-cover> div> h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 9.3rem;
+    margin-bottom: none;
+    left: 10rem;
+}
+
+
+.watch-set-cover> div> h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    margin-top: none;
+    margin-bottom: none;
+    left: 5.5rem;
+}
+
+.black004 {
+    background: darkgrey;
+    background-color: darkgrey;
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    margin-left: none;
+}
+
+.black004> h1{
+    color: darkgrey;
+    font-size: 0.1rem;
+}
+
+.create-set-cover {
+    display: flex;
+    background: black;
+    position: relative;
+    top: -20.5rem;
+}
+.kids {
+    position: relative;
+    left: 1rem;
+    margin: 0;
+    padding: 0;
+    width: 40rem;
+}
+
+.create-words-cover {
+    position: relative;
+    top: 5rem;
+    left: 7rem;
+}
+
+.create-set-cover> div> h1 {
+    color: white;
+    font-size: 2.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.create-set-cover> div> h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+.black005 {
+    background: darkgrey;
+    background-color: darkgrey;
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    top: -20.5rem;
+}
+
+.black005> h1{
+    color: darkgrey;
+    font-size: 0.1rem;
+}
+
+.questions {
+    display: grid;
+    position: relative;
+    align-items: center;
+    top: -17rem;
+}
+
+.questions>div>h1 {
+    color: white;
+    font-size: 3.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.queue-cover {
+    left: 50%;
+}
+
+.queue {
+    display: flex;
+    justify-content: left;
+    margin: 0.5rem 16.5rem;
+    padding: 1rem 2.6rem;
+    background-color: rgb(100, 95, 95);
+}
+
+.queue> h2 {
+    color: white;
+    font-size: 1.58rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.icon {
+    color: white;
+    font-size: 1.8rem;
+    top: 1.4rem;
+    margin-left: 23rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.drop {
+    background: grey;
+    display: none;
+    padding-bottom: 2rem;
+    margin: 0 16.5rem;
+    position: relative;
+    height: 100%;
+}
+
+.drop > p {
+    color: white;
+    font-size: 1.3rem;
+    top: 1.4rem;
+    margin-left: 3.5rem;
+    position: relative;
+}
+
+.icon {
+    margin-left: 31.5rem;
+    position: relative;
+}
+
+ .icon > img {
+    color: white;
+    font-size: 1.8rem;
+    width:2.3rem;
+    top: 0.01rem;
+    position: relative;
+}
+
+.icon1 {
+    margin-left: 22rem;
+    position: relative;
+}
+
+ .icon1 > img {
+    color: white;
+    font-size: 1.8rem;
+    width:2.3rem;
+    top: 1rem;
+    position: relative;
+}
+
+.icon2 {
+    margin-left: 28.3rem;
+    position: relative;
+}
+
+ .icon2 > img {
+    color: white;
+    font-size: 1.8rem;
+    width:2.3rem;
+    top: 1rem;
+    position: relative;
+}
+
+.icon3 {
+    margin-left: 30.95rem;
+    position: relative;
+}
+
+ .icon3 > img {
+    color: white;
+    font-size: 1.8rem;
+    width:2.3rem;
+    top: 1rem;
+    position: relative;
+}
+
+
+.icon4 {
+    margin-left: 21.65rem;
+    position: relative;
+}
+
+ .icon4 > img {
+    color: white;
+    font-size: 1.8rem;
+    width:2.3rem;
+    top: 1rem;
+    position: relative;
+}
+
+.icon5 {
+    margin-left: 25.4rem;
+    position: relative;
+}
+
+ .icon5 > img {
+    color: white;
+    font-size: 1.8rem;
+    width:2.3rem;
+    top: 1rem;
+    position: relative;
+}
+#what {
+    color: white;
+    font-size: 1.8rem;
+    top: 1.4rem;
+    margin-left: 32.5rem;
+    position: relative;
+}
+
+#where {
+    color: white;
+    font-size: 1.8rem;
+    top: 1.4rem;
+    margin-left: 29.5rem;
+    position: relative;
+}
+
+#how {
+    color: white;
+    font-size: 1.8rem;
+    top: 1.4rem;
+    margin-left: 32rem;
+    position: relative;
+}
+
+#is {
+    color: white;
+    font-size: 1.8rem;
+    top: 1.4rem;
+    margin-left: 27rem;
+    position: relative;
+}
+
+
+.black006 {
+    background: darkgrey;
+    background-color: darkgrey;
+    margin-top: -5rem;
+    width: 100%;
+    height: 0.5rem;
+    position: relative;
+    margin-left: none;
+}
+
+.black006> h1{
+    color: darkgrey;
+    font-size: 0.1rem;
+}
+
+.ready {
+    position: relative;
+    top: -13rem;
+}
+
+.ready> h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+    text-align:center;
+}
+
+.mail {
+    display: flex;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    left: 20rem;
+    top: -13rem;
+}
+
+.mail> input {
+    height: 3rem;
+    width: 29.1rem
+}
+
+.mail> div> button {
+    height: 3.3rem;
+    width: 13rem;
+    background-color:red;
+    border: none;
+    border-color: red;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+
+.mail> div> button> a {
+   color: white;
+   font-size: 1.58rem;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: left;
+   text-decoration: none;
+   margin-left: 0.5rem
+}
+
+.chevron-right-arrow {
+    position: absolute;
+    top: 0.75rem;
+    left: 49.5%;
+ }
+ 
+ .arrow1  {
+    margin-left: -0.3rem;
+    position: relative; 
+}
+.arrow1 > img{
+    width: 0.7rem;
+    top: 0.35rem;
+    position: relative;
+}
+
+.footer {
+    position: relative;
+    background-color: black;
+    box-sizing: border-box;
+    top: -3rem;
+    padding-top: 3.5rem;
+    padding-bottom: 6rem;
+    margin: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7.5rem;
+}
+
+.container {
+    margin-left: 10rem;
+   margin-bottom: 1rem;
+}
+
+.container>h3 {
+    color: grey;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+ul>li {
+    padding-top: 1rem;
+}
+
+ul>li>a {
+    color: grey;
+    font-size: 0.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-right: 3rem;
+    margin: 0.5rem 2.5rem ;
+    margin-left: 0;
+}
+
+.done {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+}
+
+.done>h3 {
+    color: grey;
+    font-size: 0.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+/* End of Fullscreen Responsive  */
+
+/* ///////////////////////////////////////////////////////// */
+
+/* Responsive For Ipad Pro with max-width of 1370px */
+
+@media screen and (max-width: 1024px){
+    .authority {
+        display: flex;
+        flex-wrap: wrap;
+        background: black;
+        padding: 0;
+    }
+
+    header {
+        background: linear-gradient(rgba(0,0,0,0.3), #000), url(Images/Picture\ Collage.jpg);
+        background-size: 80rem;
+        height: 70rem;
+    }
+
+    .black {
+        height: 72%;
+    }
+
+    .omo {
+        position: relative;
+    }
+
+    .omoo {
+        left: 53.5rem;
+    }
+
+    .unlimited {
+        position: relative;
+    }
+    .unlimited> h1 {
+        font-size: 3rem;
+    }
+    .unlimited> h2 {
+        font-size: 1.4rem;
+    }
+    
+    .unlimited> h3 {
+        font-size: 1rem;
+    }
+
+    .email {
+        left: 9.6rem;
+    }
+
+    .arrow {
+        margin-left: 10.5rem;
+        position: relative; 
+    }
+
+    .enjoy-set-cover {
+        padding-bottom: 3.5rem;
+    }
+
+    .enjoy-set-cover> div> h1 {
+        font-size: 2.5rem;
+        margin-left: 3.5rem;
+    }
+    
+    
+    .enjoy-set-cover> div> h2 {
+        font-size: 1.2rem;
+        margin-left: 3.5rem;
+    }
+
+    .enjoy-words-cover {
+        left: 0.1rem;
+    }
+    .netvid {
+        position: absolute; 
+        left: 53.5%;
+        top: 5.15rem;
+        width: 25rem;
+    }
+    
+    .tv {
+        position: relative;
+        left: 0%;
+        width: 33.8rem;
+    }
+
+    .black002 {
+        position: relative;
+    }
+    .download-set-cover {
+        position: relative;
+    }
+
+    .s-t {
+        padding-bottom: 4.5rem;
+        width: 28rem;
+    }
+    
+    .download-words-cover {
+        top: 5.5rem;
+        left: 1.85rem;
+    }
+
+    .black003 {
+        position: relative;
+    }
+
+    .watch-set-cover {
+        position: relative;
+    }
+
+    .watch-words-cover {
+        margin: 4rem;
+     }
+
+    .black004 {
+        position: relative;
+    }
+    
+    .create-set-cover {
+        padding-bottom: 3rem;
+    }
+
+    .kids {
+        left: 0.5rem;
+        top: 1.5rem;
+        width: 28rem;
+    }
+    
+    .create-words-cover {
+        top: 2.8rem;
+        left: 2.2rem;
+    }
+
+    .black005 {
+        position: relative;
+    }
+
+    .questions {
+        left: -8rem;
+    }
+
+    .ready {
+        left: -1rem;
+        position: relative;
+    }
+
+    .mail {
+        left: 8.5rem;
+    }
+
+    .arrow1{
+        position: relative;
+    }
+
+    .arrow1 {
+        left: 10rem;
+    }
+
+    .black006 {
+        position: relative;
+        margin-bottom: 50rem;
+    }
+
+    .footer {
+        display: block;
+        position: relative;
+        background-color: black;
+        box-sizing: border-box;
+        top: -45rem;
+        
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 7.5rem;
+    }
+    
+    .container {
+        margin-left: 10rem;
+       margin-bottom: 1rem;
+    }
+    
+    .container>h3 {
+        color: grey;
+        font-size: 1.25rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+    
+    
+    ul {
+        list-style: none;
+    }
+    
+    ul>li {
+        padding-top: 1rem;
+    }
+    
+    ul>li>a {
+        color: grey;
+        font-size: 0.85rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding-right: 3rem;
+        margin: 0.5rem 2.5rem ;
+        margin-left: 0;
+    }
+    
+    .done {
+        position: relative;
+        margin-top: 2rem;
+        margin-left: 10rem;
+        margin-bottom: 1rem;
+    }
+    
+    .done>h3 {
+        color: grey;
+        font-size: 0.85rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+}
+    
+
+/* End of Ipad Pro Responsive with max-width of 1370px  */
+
+/* ///////////////////////////////////////////////////////// */
+
+/* Responsive For Iphone 6/7/8 with max-width of 700px*/
+
+
+@media screen and (max-width: 700px){
+    .authority {
+        background: black;
+        padding: 0;
+        bottom: 15rem;
+    }
+
+
+    header {
+        background: linear-gradient(rgba(0,0,0,0.3), #000), url(Images/Picture\ Collage.jpg);
+        background-size: 80rem;
+        width: 20rem;
+        height: 45rem;
+    }
+    
+    .omo {
+        position: relative;
+        top: 1rem;
+    }
+    
+    .omo> img {
+        width: 5rem;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+    
+    .omoo {
+        position: relative;
+        top: -1rem;
+        left: 17rem;
+    }
+    
+    .omoo> a {
+        background: red;
+        padding: 0.55rem 1.3rem;
+        text-decoration: none;
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 0.7rem;
+        font-weight: 100;
+        border-radius: 0.15rem;
+    }
+    
+    .unlimited {
+        text-align: center;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        top: 1.7rem;
+    
+    }
+    
+    .unlimited> h1 {
+        font-size: 1.7rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .unlimited> h2 {
+        font-size: 1rem;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .unlimited> h3 {
+        font-size: 0.6rem;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        font-stretch: extra-expanded;
+    }
+    
+    .unlimited> h1 {
+        color: white;
+    }
+    
+    .unlimited> h2 {
+        color: white;
+    }
+    
+    .unlimited> h3 {
+        color: white;
+    }
+    
+    .email {
+        display: flex;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        left: 1rem;
+        top: 1.7rem;
+        
+    }
+    
+    .email> input {
+        height: 2.5rem;
+        width: 13rem;
+        border: none;
+    }
+    
+    .email> div> button {
+        height: 2.7rem;
+        width: 7rem;
+        background-color:red;
+        padding: none;
+        border: none;
+        border-color: red;
+        border-top-right-radius: 0.2rem;
+        border-bottom-right-radius: 0.2rem;
+    }
+    
+    .email> div> button> a {
+       color: white;
+       font-size: 1rem;
+       font-family: Arial, Helvetica, sans-serif;
+       align-self: left;
+       text-decoration: none;
+       padding: none;
+    }
+    
+    .chevron-right-arrow {
+       position: relative;
+   
+    }
+    
+    .arrow {
+        margin-left: 12.4rem;
+        top: 0.2rem;
+        position: relative; 
+    }
+    .arrow > img{
+        width: 0.4rem;
+        top: 0.2rem;
+        position: relative;
+    }
+    
+    .black001 {
+        background: darkgrey;
+        background-color: darkgrey;
+        width: 98.8%;
+        top: -25rem;
+        position: relative;
+        margin-left: none;
+        padding-bottom: 0.35rem;
+    
+    }
+    
+    .black001> h1{
+        color: darkgrey;
+        font-size: 0.1rem;
+    }
+    
+    .enjoy-set-cover {
+        display: block;
+        background: black;
+        position: relative;
+        top: -25rem;
+    }
+    
+    .enjoy-set-cover> div> h1 {
+        color: white;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 4rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .enjoy-set-cover> div> h2 {
+        color: white;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+        margin-top: none;
+        margin-bottom: none;
+        margin-left: 2rem;
+    }
+    
+    .netvid {
+        position: absolute; 
+        left: 17.5%;
+        top: 15rem;
+        width: 15.5rem;
+    }
+    
+    .tv {
+        position: relative;
+        left: 5%;
+        width: 21rem;
+    }
+    
+    .black002 {
+        background: darkgrey;
+        background-color: darkgrey;
+        width: 98.8%;
+        position: relative;
+        margin-left: none;
+        padding-bottom: 0.35rem;
+    
+    }
+    
+    .black002> h1{
+        color: darkgrey;
+        font-size: 0.1rem;
+    }
+    
+    .download-set-cover {
+        display: block;
+        background: black;
+        position: relative;
+    }
+    .s-t {
+        position: relative;
+        margin: 0;
+        padding-bottom: 4.5rem;
+        width: 22rem;
+    }
+    
+    .download-words-cover {
+        position: relative;
+        top: -2.5rem;
+        left: 1.5rem;
+    }
+    
+    .download-set-cover> div> h1 {
+        color: white;
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .download-set-cover> div> h2 {
+        color: white;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+    }
+    
+    .black003 {
+        background: darkgrey;
+        background-color: darkgrey;
+        width: 98.8%;
+        position: relative;
+        margin-left: none;
+        padding-bottom: 0.35rem;
+    
+    }
+    
+    .black003> h1{
+        color: darkgrey;
+        font-size: 0.1rem;
+    }
+    
+    .watch-set-cover {
+        background: black;
+        position: relative;
+        display: block;
+    }
+    
+    .watch-words-cover {
+       margin: 2rem;
+    }
+    
+    .watch-set-cover> div> h1 {
+        color: white;
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 9.3rem;
+        margin-bottom: none;
+        left: 10rem;
+    }
+    
+    
+    .watch-set-cover> div> h2 {
+        color: white;
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+        margin-top: none;
+        margin-bottom: none;
+        left: 5.5rem;
+    }
+    
+    .black004 {
+        background: darkgrey;
+        background-color: darkgrey;
+        width: 100%;
+        height: 0.5rem;
+        position: relative;
+        margin-left: none;
+    }
+    
+    .black004> h1{
+        color: darkgrey;
+        font-size: 0.1rem;
+    }
+    
+    .create-set-cover {
+        display: block;
+        background: black;
+        position: relative;
+        padding-bottom: 8rem;
+    }
+    .kids {
+        position: relative;
+        left: 0rem;
+        margin: 0;
+        padding: 0;
+        width: 22rem;
+    }
+    
+    .create-words-cover {
+        position: relative;
+        top: 4rem;
+        left: 1.5rem;
+    }
+    
+    .create-set-cover> div> h1 {
+        color: white;
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .create-set-cover> div> h2 {
+        color: white;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:lighter;
+    }
+    
+    .black005 {
+        background: darkgrey;
+        background-color: darkgrey;
+        width: 100%;
+        height: 0.5rem;
+        position: relative;
+    }
+    
+    .black005> h1{
+        color: darkgrey;
+        font-size: 0.1rem;
+    }
+    
+    .questions {
+        display: block;
+        position: relative;
+        align-items: center;
+        left: 1rem;
+    }
+    
+    .questions>div>h1 {
+        color: white;
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 1.5rem;
+    }
+    
+    .queue-cover {
+        left: 0rem;
+    }
+    
+    .queue {
+        display: block;
+        margin: 0.5rem 1rem;
+        margin-right: 7rem;
+        padding: 0.5rem 1rem;
+        background-color: rgb(100, 95, 95);
+    }
+    
+    .queue> h2 {
+        color: white;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+    .icon {
+        margin-left: 15rem;
+        top: -2.5rem;
+        margin-bottom: -2.2rem;
+        position: relative;
+    }
+
+    .drop {
+        background: grey;
+        flex-flow: wrap;
+        padding-bottom: 2rem;
+        margin: 0 1rem;
+        position: absolute;
+        height: 0rem;
+        opacity: 0;
+    }
+    
+    .drop > p {
+        color: white;
+        font-size: 1.3rem;
+        top: 1.4rem;
+        margin-left: 1rem;
+        position: relative;
+    }
+    
+    
+    
+     .icon > img {
+        color: white;
+        width: 0.8rem;
+        top: 0.01rem;
+        position: relative;
+    }
+    
+    .icon1 {
+        margin-left: 15rem;
+        top: -2.8rem;
+        margin-bottom: -1.4rem;
+        position: relative;
+    }
+    
+     .icon1 > img {
+        color: white;
+        width:0.8rem;
+        top: 1rem;
+        position: relative;
+    }
+    
+    .icon2 {
+        margin-left: 15rem;
+        top: -2.8rem;
+        margin-bottom: -1.5rem;
+        position: relative;
+    }
+    
+     .icon2 > img {
+        color: white;
+        width: 0.8rem;
+        top: 1rem;
+        position: relative;
+    }
+    
+    .icon3 {
+        margin-left: 15rem;
+        top: -2.9rem;
+        margin-bottom: -1.4rem;
+        position: relative;
+    }
+    
+     .icon3 > img {
+        color: white;
+        width: 0.8rem;
+        top: 1rem;
+        position: relative;
+    }
+    
+    
+    .icon4 {
+        margin-left: 15rem;
+        top: -2.8rem;
+        margin-bottom: -1.1rem;
+        position: relative;
+    }
+    
+     .icon4 > img {
+        color: white;
+        width: 0.8rem;
+        top: 1rem;
+        position: relative;
+    }
+    
+    .icon5 {
+        margin-left: 15rem;
+        top: -2.8rem;
+        margin-bottom: -1.1rem;
+        position: relative;
+    }
+    
+     .icon5 > img {
+        color: white;
+        width: 0.8rem;
+        top: 1rem;
+        position: relative;
+    }
+    
+    .black006 {
+        background: darkgrey;
+        background-color: darkgrey;
+        width: 91%;
+        height: 0.5rem;
+        position: relative;
+        left: 0rem;
+    }
+    
+    .ready {
+        position: relative;
+        top: -13.5rem;
+        left: -1.2rem;   
+    }
+    
+    .ready> h3 {
+        color: white;
+        font-size: 0.6rem;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    .mail {
+        display: flex;
+        text-align: center;
+        position: relative;
+        align-items: center;
+        left: 0.3rem;
+        top: -13.5rem;
+    }
+    
+    .mail> input {
+        height: 2.5rem;
+        width: 13rem;
+        border: none;
+    }
+    
+    .mail> div> button {
+        height: 2.7rem;
+        width: 7.5rem;
+        align-items: left;
+        justify-content: center;
+        background-color:red;
+        padding: none;
+        border: none;
+        border-color: red;
+        border-top-right-radius: 0.2rem;
+        border-bottom-right-radius: 0.2rem;
+    }
+    
+    #gtb {
+        color: white;
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: none;
+     }
+     
+     .chevron-right-arrow {
+        position: relative;
+        top: -1.4rem;
+        left: -6.5rem;
+     }
+
+     .arrow1  {
+        position: relative; 
+    }
+
+    .arrow1 > img{
+        width: 0.4rem;
+        top: 0.35rem;
+        position: relative;
+    }
+    
+    .footer {
+        position: relative;
+        background-color: black;
+        box-sizing: border-box;
+        top: -50rem;
+        padding-top: 2rem;
+        margin-bottom: 20rem;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1.5rem;
+    }
+    
+    .container {
+        margin-left: 3rem;
+       margin-bottom: 1rem;
+    }
+    
+    .container>h3 {
+        color: grey;
+        font-size: 1.25rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+    
+    
+    ul {
+        list-style: none;
+    }
+    
+    ul>li {
+        padding-top: 1rem;
+    }
+    
+    ul>li>a {
+        color: grey;
+        font-size: 0.85rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding-right: 3rem;
+        margin: 0.5rem 2.5rem ;
+        margin-left: 0;
+    }
+    
+    .done {
+        position: relative;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+    
+    .done>h3 {
+        color: grey;
+        font-size: 0.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+     
+     }
+
+    }
