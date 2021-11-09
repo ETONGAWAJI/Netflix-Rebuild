@@ -10,7 +10,7 @@
 }
 
 header {
-    background: linear-gradient(rgba(0,0,0,0.3), #000), url(Images/Picture\ Collage.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3), #000), url(Images/picture-collage.jpg);
     background-size: 83.5rem;
     width: 10rem;
     height: 70rem;
@@ -155,8 +155,8 @@ header {
 }
 
 .black001 {
-    background: darkgrey;
-    background-color: darkgrey;
+    background: #242526;
+    background-color: #242526;
     width: 98.8%;
     top: -25rem;
     position: relative;
@@ -209,8 +209,8 @@ header {
 }
 
 .black002 {
-    background: darkgrey;
-    background-color: darkgrey;
+    background: #242526;
+    background-color: #242526;
     width: 98.8%;
     top: -20.5rem;
     position: relative;
@@ -258,8 +258,8 @@ header {
 }
 
 .black003 {
-    background: darkgrey;
-    background-color: darkgrey;
+    background: #242526;
+    background-color: #242526;
     width: 98.8%;
     top: -20.5rem;
     position: relative;
@@ -304,8 +304,8 @@ header {
 }
 
 .black004 {
-    background: darkgrey;
-    background-color: darkgrey;
+    background: #242526;
+    background-color: #242526;
     width: 100%;
     height: 0.5rem;
     position: relative;
@@ -352,8 +352,8 @@ header {
 }
 
 .black005 {
-    background: darkgrey;
-    background-color: darkgrey;
+    background: #242526;
+    background-color: #242526;
     width: 100%;
     height: 0.5rem;
     position: relative;
@@ -538,8 +538,8 @@ header {
 
 
 .black006 {
-    background: darkgrey;
-    background-color: darkgrey;
+    background: #242526;
+    background-color: #242526;
     margin-top: -5rem;
     width: 100%;
     height: 0.5rem;
@@ -636,11 +636,17 @@ header {
    margin-bottom: 1rem;
 }
 
-.container>h3 {
+.container > h3:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.container > h3 > a {
     color: grey;
     font-size: 1.25rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    text-decoration: none;
 }
 
 
@@ -653,7 +659,12 @@ ul>li {
     padding-top: 1rem;
 }
 
-ul>li>a {
+ul > li:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+ul > li > a {
     color: grey;
     font-size: 0.85rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -732,6 +743,11 @@ ul>li>a {
         position: relative; 
     }
 
+    .black001 {
+        background: #242526;
+        background-color: #242526;
+    }
+
     .enjoy-set-cover {
         padding-bottom: 3.5rem;
     }
@@ -765,6 +781,9 @@ ul>li>a {
 
     .black002 {
         position: relative;
+        background: #242526;
+        background-color: #242526;
+        
     }
     .download-set-cover {
         position: relative;
@@ -782,6 +801,8 @@ ul>li>a {
 
     .black003 {
         position: relative;
+        background: #242526;
+        background-color: #242526;
     }
 
     .watch-set-cover {
@@ -794,6 +815,8 @@ ul>li>a {
 
     .black004 {
         position: relative;
+        background: #242526;
+        background-color: #242526;
     }
     
     .create-set-cover {
@@ -813,6 +836,8 @@ ul>li>a {
 
     .black005 {
         position: relative;
+        background: #242526;
+        background-color: #242526;
     }
 
     .questions {
@@ -838,6 +863,8 @@ ul>li>a {
 
     .black006 {
         position: relative;
+        background: #242526;
+        background-color: #242526;
         margin-bottom: 50rem;
     }
 
@@ -861,13 +888,13 @@ ul>li>a {
        margin-bottom: 1rem;
     }
     
-    .container>h3 {
+    .container > h3 > a {
         color: grey;
         font-size: 1.25rem;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: lighter;
+        text-decoration: none;
     }
-    
     
     
     ul {
@@ -1048,10 +1075,10 @@ ul>li>a {
     }
     
     .black001 {
-        background: darkgrey;
-        background-color: darkgrey;
+        background: #242526;
+        background-color: #242526;
         width: 98.8%;
-        height: 0.25rem;
+        height: 0.1rem;
         top: -25rem;
         position: relative;
         margin-left: none;
@@ -1104,10 +1131,10 @@ ul>li>a {
     }
     
     .black002 {
-        background: darkgrey;
-        background-color: darkgrey;
+        background: #242526;
+        background-color: #242526;
         width: 98.8%;
-        height: 0.25rem;
+        height: 0.15rem;
         position: relative;
         margin-left: none;
         padding-bottom: 0.35rem;
@@ -1153,10 +1180,10 @@ ul>li>a {
     }
     
     .black003 {
-        background: darkgrey;
-        background-color: darkgrey;
+        background: #242526;
+        background-color: #242526;
         width: 98.8%;
-        height: 0.25rem;
+        height: 0.1rem;
         position: relative;
         margin-left: none;
         padding-bottom: 0.35rem;
@@ -1199,10 +1226,10 @@ ul>li>a {
     }
     
     .black004 {
-        background: darkgrey;
-        background-color: darkgrey;
+        background: #242526;
+        background-color: #242526;
         width: 100%;
-        height: 0.5rem;
+        height: 0.45rem;
         position: relative;
         margin-left: none;
     }
@@ -1247,8 +1274,8 @@ ul>li>a {
     }
     
     .black005 {
-        background: darkgrey;
-        background-color: darkgrey;
+        background: #242526;
+        background-color: #242526;
         width: 100%;
         height: 0.4rem;
         position: relative;
@@ -1400,10 +1427,10 @@ ul>li>a {
     }
     
     .black006 {
-        background: darkgrey;
-        background-color: darkgrey;
+        background: #242526;
+        background-color: #242526;
         width: 91%;
-        height: 0.4rem;
+        height: 0.35rem;
         position: relative;
         left: 0rem;
     }
