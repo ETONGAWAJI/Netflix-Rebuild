@@ -188,7 +188,7 @@ header {
 
 .enjoy-set-cover> div> h2 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:lighter;
     margin-top: none;
@@ -198,13 +198,13 @@ header {
 
 .netvid {
     position: absolute; 
-    left: 54.3%;
+    left: 57.3%;
     top: 6.3rem;
 }
 
 .tv {
     position: relative;
-    left: 13.5%;
+    left: 0%;
     width: 40.8rem;
 }
 
@@ -240,7 +240,7 @@ header {
 .download-words-cover {
     position: relative;
     top: 12rem;
-    left: 8rem;
+    left: 2rem;
 }
 
 .download-set-cover> div> h1 {
@@ -252,9 +252,10 @@ header {
 
 .download-set-cover> div> h2 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:lighter;
+    margin-right: 1rem;
 }
 
 .black003 {
@@ -349,6 +350,7 @@ header {
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:lighter;
+    margin:0 7rem;
 }
 
 .black005 {
@@ -940,17 +942,20 @@ ul > li > a {
 
 @media screen and (max-width: 700px){
     .authority {
+        display: flex;
+        flex-wrap: wrap;
         background: black;
         padding: 0;
-        bottom: 15rem;
     }
-
+    .authority * {
+        flex: 50%;
+    }
 
     header {
         background: linear-gradient(rgba(0,0,0,0.3), #000), url(Images/Picture\ Collage.jpg);
         background-size: 80rem;
         width: 20rem;
-        height: 45rem;
+        height: 51rem;
     }
     
     .omo {
@@ -976,8 +981,8 @@ ul > li > a {
         text-decoration: none;
         color: white;
         font-family:Arial, Helvetica, sans-serif;
-        font-size: 0.8rem;
-        font-weight: 100;
+        font-size: 0.9rem;
+        font-weight: bold;
         border-radius: 0.15rem;
     }
     
@@ -986,25 +991,25 @@ ul > li > a {
         position: relative;
         align-items: center;
         justify-content: center;
-        top: 1.7rem;
+        top: 5rem;
     
     }
     
     .unlimited> h1 {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         font-family: Arial, Helvetica, sans-serif;
         padding: 0;
         margin: 0;
     }
     
     .unlimited> h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
     }
     
     .unlimited> h3 {
-        font-size: 0.6rem;
+        font-size: 1rem;
         font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
         font-stretch: extra-expanded;
@@ -1023,18 +1028,19 @@ ul > li > a {
     }
     
     .email {
-        display: flex;
+        display: block;
         text-align: center;
         position: relative;
         align-items: center;
-        left: 1rem;
-        top: 1.7rem;
+        left: 0.2rem;
+        top: 5.5rem;
         
     }
     
     .email> input {
-        height: 2.5rem;
-        width: 13rem;
+        height: 2.25rem;
+        width: 20rem;
+        margin-bottom: 0.6rem;
         border: none;
     }
     
@@ -1042,18 +1048,17 @@ ul > li > a {
         height: 2.7rem;
         width: 7rem;
         background-color:red;
-        padding: none;
         border: none;
+        padding-top: 0.8rem;
+        padding-right: 0.8rem;
         border-color: red;
-        border-top-right-radius: 0.2rem;
-        border-bottom-right-radius: 0.2rem;
+        border-radius: 0.15rem;
     }
     
     .email> div> button> a {
        color: white;
        font-size: 1rem;
        font-family: Arial, Helvetica, sans-serif;
-       align-self: left;
        text-decoration: none;
        padding: none;
     }
@@ -1064,7 +1069,7 @@ ul > li > a {
     }
     
     .arrow {
-        margin-left: 12.4rem;
+        margin-left: 12.3rem;
         top: 0.2rem;
         position: relative; 
     }
@@ -1079,7 +1084,7 @@ ul > li > a {
         background-color: #313232;
         width: 98.8%;
         height: 0.1rem;
-        top: -25rem;
+        top: -20rem;
         position: relative;
         margin-left: none;
         padding-bottom: 0.35rem;
@@ -1095,12 +1100,18 @@ ul > li > a {
         display: block;
         background: black;
         position: relative;
-        top: -25rem;
+        top: -20rem;
+    }
+
+    .enjoy-words-cover {
+        text-align: center;
+        align-items: center;
+        margin-left: -1rem;
     }
     
     .enjoy-set-cover> div> h1 {
         color: white;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 4rem;
         margin-left: 2rem;
@@ -1109,24 +1120,24 @@ ul > li > a {
     
     .enjoy-set-cover> div> h2 {
         color: white;
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight:lighter;
+        font-weight:bold;
         margin-top: none;
         margin-bottom: none;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     
     .netvid {
         position: absolute; 
-        left: 14.85%;
-        top: 15rem;
+        left: 16.35%;
+        top: 14.8rem;
         width: 15rem;
     }
     
     .tv {
         position: relative;
-        left: 2.35%;
+        left: 4.5%;
         width: 20.5rem;
     }
     
@@ -1156,27 +1167,31 @@ ul > li > a {
         margin: 0;
         padding-bottom: 4.5rem;
         width: 20.5rem;
-        left: 0rem;
+        top: 11rem;
+        left: 0.7rem;
     }
     
     .download-words-cover {
         position: relative;
-        top: -2.5rem;
-        left: 0.5rem;
+        text-align: center;
+        align-items: center;
+        margin-left: -3.5rem;
+        top: -19.5rem;
     }
     
     .download-set-cover> div> h1 {
         color: white;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         font-family: Arial, Helvetica, sans-serif;
     }
     
     
     .download-set-cover> div> h2 {
         color: white;
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight:lighter;
+        font-weight: bold;
+        margin:0 3rem;
     }
     
     .black003 {
@@ -1199,9 +1214,12 @@ ul > li > a {
         background: black;
         position: relative;
         display: block;
+        padding: 0rem;
     }
     
     .watch-words-cover {
+       text-align: center;
+       align-items: center; 
        margin: 2rem;
     }
     
@@ -1219,7 +1237,7 @@ ul > li > a {
         color: white;
         font-size: 0.9rem;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight:lighter;
+        font-weight: bold;
         margin-top: none;
         margin-bottom: none;
         left: 5.5rem;
@@ -1243,20 +1261,24 @@ ul > li > a {
         display: block;
         background: black;
         position: relative;
-        padding-bottom: 8rem;
+        padding-bottom: 7rem;
     }
     .kids {
         position: relative;
-        left: 0rem;
+        justify-content: center;
+        left: 1.5rem;
+        top: 12rem;
         margin: 0;
         padding: 0;
-        width: 20.5rem;
+        width: 21rem;
     }
     
     .create-words-cover {
         position: relative;
-        top: 4rem;
-        left: 0.5rem;
+        text-align: center;
+        align-items: center; 
+        top: -13rem;
+        margin-left: -5rem;
     }
     
     .create-set-cover> div> h1 {
@@ -1270,7 +1292,8 @@ ul > li > a {
         color: white;
         font-size: 1rem;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight:lighter;
+        font-weight: bold;
+        margin: 0 4rem;
     }
     
     .black005 {
@@ -1288,28 +1311,29 @@ ul > li > a {
     
     .questions {
         display: block;
-        position: relative;
-        align-items: center;
-        left: 1rem;
+        margin-left: -8.5rem;
+        margin-right: -24.5rem;
+    }
+
+    .q1 {
+        margin: 0 15rem;
+        padding-bottom: 0.8rem;
     }
     
-    .questions>div>h1 {
+    .questions > div > h1 {
         color: white;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        text-align: left;
-        margin-left: 1.5rem;
+        text-align: center;
+        align-items: center; 
+        margin: 0 3rem;
     }
     
-    .queue-cover {
-        left: 0rem;
-    }
+    
     
     .queue {
         display: block;
-        margin: 0.5rem 1rem;
-        margin-right: 7rem;
         padding: 0.5rem 1rem;
         background-color: rgb(100, 95, 95);
     }
@@ -1318,11 +1342,11 @@ ul > li > a {
         color: white;
         font-size: 1rem;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: lighter;
+        font-weight: bold;
     }
     
     .icon {
-        margin-left: 15rem;
+        margin-left: 19rem;
         top: -2.5rem;
         margin-bottom: -2.2rem;
         position: relative;
@@ -1356,7 +1380,7 @@ ul > li > a {
     }
     
     .icon1 {
-        margin-left: 15rem;
+        margin-left: 19rem;
         top: -2.8rem;
         margin-bottom: -1.4rem;
         position: relative;
@@ -1370,7 +1394,7 @@ ul > li > a {
     }
     
     .icon2 {
-        margin-left: 15rem;
+        margin-left: 19rem;
         top: -2.8rem;
         margin-bottom: -1.5rem;
         position: relative;
@@ -1384,7 +1408,7 @@ ul > li > a {
     }
     
     .icon3 {
-        margin-left: 15rem;
+        margin-left: 19rem;
         top: -2.9rem;
         margin-bottom: -1.4rem;
         position: relative;
@@ -1399,7 +1423,7 @@ ul > li > a {
     
     
     .icon4 {
-        margin-left: 15rem;
+        margin-left: 19rem;
         top: -2.8rem;
         margin-bottom: -1.1rem;
         position: relative;
@@ -1413,7 +1437,7 @@ ul > li > a {
     }
     
     .icon5 {
-        margin-left: 15rem;
+        margin-left: 19rem;
         top: -2.8rem;
         margin-bottom: -1.1rem;
         position: relative;
@@ -1437,45 +1461,54 @@ ul > li > a {
     
     .ready {
         position: relative;
-        top: -13.5rem;
-        left: -1.2rem;   
+        text-align: center;
+        align-items: center; 
+        margin: 0 0rem;
+        margin-left: 2.3rem;
+        top: -16.5rem;   
     }
     
     .ready> h3 {
         color: white;
-        font-size: 0.6rem;
-        font-weight: lighter;
+        font-size: 1.1rem;
+        font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
     }
     
     .mail {
-        display: flex;
+        display: block;
         text-align: center;
         position: relative;
         align-items: center;
         left: 0.3rem;
-        top: -13.5rem;
+        top: -15.5rem;
     }
     
     .mail> input {
         height: 2.5rem;
-        width: 13rem;
+        width: 20.2rem;
+        margin-bottom: 0.6rem;
         border: none;
     }
     
     .mail> div> button {
-        height: 2.7rem;
-        width: 7.5rem;
-        align-items: left;
-        justify-content: center;
+        height: 3rem;
+        width: 9.3rem;
         background-color:red;
-        padding: none;
         border: none;
+        padding-top: 0.8rem;
+        padding-right: 1rem;
         border-color: red;
-        border-top-right-radius: 0.2rem;
-        border-bottom-right-radius: 0.2rem;
+        border-radius: 0.15rem;
     }
+
+    .email> div> button> a {
+        color: white;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: none;
+     }
     
     #gtb {
         color: white;
@@ -1501,6 +1534,7 @@ ul > li > a {
     .arrow1 > img{
         width: 0.4rem;
         top: 0.35rem;
+        left: 0.35rem;
         position: relative;
     }
     
@@ -1510,7 +1544,6 @@ ul > li > a {
         box-sizing: border-box;
         top: -50rem;
         padding-top: 2rem;
-        margin-bottom: 20rem;
     }
     
     .row {
