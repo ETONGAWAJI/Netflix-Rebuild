@@ -1092,14 +1092,14 @@ ul>li>a {
     
     .netvid {
         position: absolute; 
-        left: 15.5%;
+        left: 15%;
         top: 15rem;
         width: 15.5rem;
     }
     
     .tv {
         position: relative;
-        left: 3%;
+        left: 2.5%;
         width: 21rem;
     }
     
@@ -1128,14 +1128,14 @@ ul>li>a {
         position: relative;
         margin: 0;
         padding-bottom: 4.5rem;
-        width: 22rem;
-        left: -0.3rem;
+        width: 20.5rem;
+        left: 0rem;
     }
     
     .download-words-cover {
         position: relative;
         top: -2.5rem;
-        left: 1rem;
+        left: 0.5rem;
     }
     
     .download-set-cover> div> h1 {
@@ -1220,16 +1220,16 @@ ul>li>a {
     }
     .kids {
         position: relative;
-        left: -0.5rem;
+        left: 0rem;
         margin: 0;
         padding: 0;
-        width: 22rem;
+        width: 20.5rem;
     }
     
     .create-words-cover {
         position: relative;
         top: 4rem;
-        left: 1rem;
+        left: 0.5rem;
     }
     
     .create-set-cover> div> h1 {
