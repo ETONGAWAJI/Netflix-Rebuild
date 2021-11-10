@@ -947,7 +947,7 @@ ul > li > a {
         background: black;
         padding: 0;
     }
-    
+     
     header {
         background: linear-gradient(rgba(0,0,0,0.3), #000), url(Images/Picture\ Collage.jpg);
         background-size: 80rem;
@@ -1309,7 +1309,7 @@ ul > li > a {
     .questions {
         display: block;
         margin-left: -8.5rem;
-        margin-right: -24.5rem;
+        margin-right: -23.8rem;
     }
 
     .q1 {
