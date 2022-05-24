@@ -115,6 +115,7 @@ header {
 .email> input {
     height: 3rem;
     width: 29.1rem;
+    padding: 2rem;
     border: none;
 }
 
